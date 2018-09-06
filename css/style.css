@@ -1,0 +1,370 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	overflow-x:hidden;
+}
+.container{
+	width:1140px;
+	margin:0 auto;
+	overflow:hidden;
+}
+/*Header Area CSS Start*/
+header{
+	margin:0 auto;
+	overflow:hidden;
+	background-color:#EDEFF1;
+	padding:10px;
+	width:100%;
+	position:fixed;
+}
+.header-top{
+	width:100%;
+	float:left;
+	margin: 0 auto;
+	padding-top:10px;
+	overflow:hidden;
+}
+.header-top .nav-bar ul li a:hover{ 
+   background-color:red;
+   padding:7px 10px;
+   border-radius:20px;
+   transition: .6s ease-in;
+}
+.header-top{}
+.header-top{}
+.logo-area{
+	width:40%;
+	float:left;
+}
+nav{
+	width:60%;
+	float:right;
+	
+}
+.nav-bar ul{ 
+   list-style:none;
+   
+  
+}
+.nav-bar ul li{ 
+  display:inline-block;
+   
+}
+.nav-bar ul li a{ 
+   text-decoration:none;
+   margin: 0px 15px;
+}
+
+/*Header Area CSS End*/
+
+/*Baner section css start here*/
+.baner-area{
+	width:100%;
+	margin:0 auto;
+	padding:70px 0px;
+	overflow:hidden;
+	background-image: url(../images/baner.png);
+	background-size:cover;
+}
+.baner-content{
+	width: 80%;
+	margin: 0 10%;
+	float:left;
+	overflow:hidden;
+	
+}
+.baner-content h2{ 
+   font-size:60px;
+   text-align:center;
+   margin-top:250px;
+   color:#fff;
+}
+.baner-content p{ 
+   text-align:center;
+   color:#fff;
+}
+.food-feature-item h3{ 
+   color:#fff;
+   margin:8px 0px;
+}
+.food-feature-item p{ 
+   color:#fff;
+   line-height:15px;
+   font-size:12px;
+}
+.food-feature-item img{
+	height:115px;
+	width:115px;
+}
+.baner-content .food-feature-item{
+	width:29%;
+	float:left;
+	margin:2%;
+	text-align:center;
+}
+
+.baner-area input[type="button"]{
+	width:14%;
+	padding:10px 25px;
+	margin: 5px 43% 25px 43%;
+	border-radius:20px;
+	border:none;
+	text-align:center;
+	cursor:pointer;
+	
+	
+}
+/*Baner Section CSS end here*/
+
+/*Our News Section CSS Start here*/
+.our-news-section{
+	width:100%;
+	background-color:#EDEFF9;
+	padding:60px 0px;
+}
+  .our-news-content{ 
+     width:80%;
+	 margin:0 10%;
+	 float:left;
+	 overflow:hidden;
+  }
+ .our-news-content h3{ 
+     text-align:center;
+	 margin-bottom:50px;
+ }
+ .our-news-content{}
+ .our-news-item{
+	 width:31.33%;
+	 margin: 0 1%;
+	 float:left;
+	 overflow:hidden;
+	 text-align:center;
+ }
+.our-news-item img{ 
+    margin-bottom:20px;
+    
+}
+.our-news-item h4{}
+.our-news-item p{ 
+   margin:20px 0px;
+   line-height:20px;
+   font-size:15px;
+}
+
+.our-news-section input[type="button"]{
+	padding:10px 20px;
+	background-color:#F8F8FF;
+	border-radius:20px;
+	border:none;
+	cursor:pointer;
+}
+
+/*Our News Section CSS End here*/
+/*NewsLetter Section CSS Start here*/
+.newsletter-area{
+	background-image:url(../images/newsletter.png);
+	background-repeat:no-repeat;	
+}
+ 
+.newsletter-content{
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.newsletter-content-item{
+	width:80%;
+	margin:80px 10%;
+}
+.newsletter-content-item h3{
+	text-align:center;
+	color: #fff;
+	margin-bottom:10px;
+}
+
+.newsletter-content-item p{
+	color:#fff;
+	text-align:center;
+}
+
+.newsletter-content-item form{
+	text-align:center;
+	margin-top:50px;
+	
+}
+.newsletter-content input[type="email"]{
+	width:250px;
+	height:30px;
+	padding:10px;
+	border-radius:50px;
+	border:1px solid #fff;
+	background-color:transparent;
+	color:#fff;
+}
+
+.newsletter-content input[type="submit"]{
+	width:200px;
+	height:54px;
+	padding:20px 5px;
+	border-radius:50px;
+	cursor:pointer;
+	border:none;
+	margin-left:-70px;
+	background-color: #FFFFFF;
+	color:#000;
+	
+}
+
+/*NewsLetter Section CSS End here*/
+/*SignUp Section CSS Start here*/
+.signup-area{
+	width:100%;
+	margin:0 auto;
+	padding:50px 0px;
+	
+}
+.sign-up-content{ 
+  width:80%;
+  margin:0 10%;
+  float:left;
+  overflow:hidden;
+}
+.first-sign-up{
+  width:100%;
+  margin:0 auto;
+  float:left;
+  overflow:hidden;
+}
+
+.first-sign-up .sign-up-text{
+	width:48%;
+	float:left;
+}
+.first-sign-up .sign-up-text p{ 
+  line-height:18px;
+  font-size:12px;
+}
+.first-sign-up .sign-up-image{
+	width:50%;
+	float:left;
+	margin-left:2%;
+}
+.first-sign-up .sign-up-image img{
+	width:98%;
+	height:300px;
+}
+.first-sign-up input[type="button"]{
+	margin-top:20px;
+	width:150px;
+	padding:12px 15px;
+	background-color:#DD4B2B;
+	border-radius:20px;
+	border:none;
+	color:#fff;
+}
+.second-sign-up{
+  width:100%;
+  margin:0 auto;
+  float:left;
+  overflow:hidden;
+  margin-top:35px;
+}
+
+.second-sign-up .sign-up-text{
+	width:50%;
+	float:left;
+	margin-left:2%;
+}
+
+.second-sign-up .sign-up-text p{
+	line-height:18px;
+	font-size:12px;
+}
+
+
+.second-sign-up .sign-up-image{
+	width:48%;
+	float:left;
+}
+.second-sign-up .sign-up-image img{ 
+    width:98%;
+	height:300px;
+	
+}
+.second-sign-up input[type="button"]{
+	margin-top:20px;
+	width:150px;
+	padding:12px 15px;
+	background-color:#4B4E73;
+	border-radius:20px;
+	border:none;
+	color:#fff;
+}
+/*SignUp Section CSS End here*/
+/*Footer Section CSS Start here*/
+
+
+
+
+/*Footer Section CSS End here*/
+
+.item-area{
+	background-color:#D75D0E;
+	overflow:hidden;
+}
+.item-section{
+	width:100%;
+	
+	
+	
+}
+
+.item-section-item{
+	width:80%;
+	margin:30px 10%;
+	
+}
+.item-section-single-item{
+	width:22.666%;
+	margin:0px 2%;
+	float:left;
+	text-align:center;
+	padding:35px 20px;
+}
+.item-section-single-item ul{
+	list-style:none;
+	text-align:center;
+}
+.item-section-single-item ul li{
+	line-height:25px;
+}
+.itme-section-single-item ul{}
+
+/*Item section css end here*/
+/*Footer Area CSS Start here*/
+
+.footer-section{
+	background-image: url(../images/footer.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-top:30px;
+	padding-bottom: 10px;
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	
+}
+
+.footer-content{
+	width:80%;
+	margin:0 auto;
+}
+.footer-content p{
+	
+	text-align:center;
+	margin:0px 10px 150px 10px;
+	padding:20px;
+	color:#fff;
+	
+}
